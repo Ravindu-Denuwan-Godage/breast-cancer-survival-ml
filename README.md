@@ -18,7 +18,7 @@ However, such models face two fundamental challenges that this project investiga
 1. **Class imbalance**: the majority of patients survive, making standard accuracy metrics misleading and requiring specialised techniques
 2. **Data scarcity**: individual hospitals hold small patient datasets that cannot be shared across institutions due to privacy regulations
 
-The second challenge directly motivates the federated learning approach proposed in my PhD research, where models are trained across distributed hospital nodes without sharing patient data.
+The data scarcity challenge directly motivates federated learning approaches, where models are trained across distributed hospital nodes without sharing patient data.
 
 ## Dataset
 
@@ -146,7 +146,7 @@ All three models achieved modest performance on the minority Dead class (F1 appr
 - **Centralised training**: assumes all data is available in one place
 - **Subgroup variation**: model performs inconsistently across patient groups
 
-These limitations directly motivate research on privacy-preserving federated deep learning for cancer outcome prediction, where multimodal data including clinical, genomic, and imaging data is learned across distributed hospital nodes without sharing patient records.
+These limitations motivate research on privacy-preserving federated deep learning for cancer outcome prediction, where multimodal data including clinical, genomic, and imaging data is learned across distributed hospital nodes without sharing patient records.
 
 ## How To Run
 
